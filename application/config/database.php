@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 if($_SERVER['HTTP_HOST'] != "localhost"){
-	$_ENV['JAWSDB_URL'] = "mysql://v31v3imq8s3f4buu:xej7skx9sime8173@uoa25ublaow4obx5.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/zlqfwd0amk2ns2gw";
+	$_ENV['JAWSDB_URL'] = "mysql://iq5z4sl7wbb5ziaz:gu5713qruxytkexb@zpj83vpaccjer3ah.chr7pe7iynqr.eu-west-1.rds.amazonaws.com:3306/nxoj4wu105havict";
 	// Else, if running on Heroku
 	if(isset($_ENV['JAWSDB_URL'])){
 		$url = $_ENV['JAWSDB_URL'];
